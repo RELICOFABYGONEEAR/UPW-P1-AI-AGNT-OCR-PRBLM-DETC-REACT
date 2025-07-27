@@ -10,7 +10,7 @@ import {
   BarChart3,
 } from "lucide-react";
 
-const API_BASE_URL = "upw-p1-ai-agnt-ocr-prblm-detc-fapi.vercel.app";
+const API_BASE_URL = "https://upw-p1-ai-agnt-ocr-prblm-detc-fapi.onrender.com";
 
 const FinancialAnalyzer = () => {
   const [currentView, setCurrentView] = useState("upload"); // 'upload', 'results'
